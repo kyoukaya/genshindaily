@@ -1,5 +1,7 @@
 # genshindaily
 
+![Discord Screenshot](https://i.imgur.com/M3jVlR0.png)
+
 Yet another Genshin auto daily check-in tool.
 Based on [genshinhelper by y1ndan](https://github.com/y1ndan/genshinhelper),
 but for HoYoLab check-ins only.

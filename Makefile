@@ -6,11 +6,11 @@ GOFLAGS := -v
 VERSION := git describe --tags
 COMMIT := git rev-parse --short=8 HEAD
 INT_PKG = $(PREFIX)/internal/genshindaily
-LDFLAGS := -s -w -X '$(INT_PKG).Version=`$(VERSION)`' -X '$(INT_PKG).Date=`date`' -X '$(INT_PKG).Commit=`$(COMMIT)`'
+LDFLAGS := -s -w -X '$(INT_PKG).Version=genshindaily-`$(VERSION)`' -X '$(INT_PKG).Date=`date`' -X '$(INT_PKG).Commit=`$(COMMIT)`'
 RELEASE_DIR := dist
 BIN := main
 
-default: build
+default: clean release build-cmd
 
 clean:
 	rm -rf $(RELEASE_DIR) daily

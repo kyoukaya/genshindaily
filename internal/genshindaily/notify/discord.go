@@ -43,7 +43,7 @@ func (d *DiscordNotifier) Do(ctx context.Context, cli *resty.Client, res *models
 
 func AsDiscordEmbed(r *models.Result) *Embed {
 	return &Embed{
-		Title: "genshin-daily",
+		Title: "genshindaily",
 		Color: 0x3b2f8,
 		Thumbnail: Image{
 			URL: r.Award.Icon,
