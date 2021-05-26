@@ -1,0 +1,4 @@
+{
+    "kind": "health_check",
+    "url": "https://hc-ping.com/foo"
+}

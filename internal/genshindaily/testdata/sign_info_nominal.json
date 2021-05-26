@@ -1,0 +1,10 @@
+{
+    "retcode": 0,
+    "message": "OK",
+    "data": {
+        "total_sign_day": 22,
+        "today": "2021-05-23",
+        "is_sign": true,
+        "first_bind": false
+    }
+}

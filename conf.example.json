@@ -1,0 +1,13 @@
+{
+    "cookies": "mi18nLang=en-us; account_id=YOUR_ACCOUNT_ID_HERE; cookie_token=YOUR_TOKEN_HERE",
+    "notifiers": [
+        {
+            "kind": "discord",
+            "url": "https://discord.com/api/webhooks/123456789012345678/bar"
+        },
+        {
+            "kind": "health_check",
+            "url": "https://hc-ping.com/foo"
+        }
+    ]
+}
